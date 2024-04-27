@@ -1,0 +1,67 @@
+/* Style the form container */
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #9dbc98;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style form elements */
+.form-container input[type="text"],
+.form-container input[type="number"],
+.form-container input[type="select"],
+.form-container input[type="option"],
+.form-container input[type="password"],
+.form-container input[type="email"],
+.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Style submit button */
+.form-container input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Change submit button color on hover */
+.form-container input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Style form labels */
+.form-container label {
+  margin-bottom: 6px;
+  display: block;
+}
+
+/* Style form title */
+.form-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.student_table{
+  background-color: #4caf50;
+  border: 5px solid green;
+}
+.student_table th{
+  /* background-color:rgba(5, 223, 42, 0.61);*/
+  background-color: #12e1b1ad;
+  text-align: center;  
+}
+.student_table td {
+  text-align: center;
+}

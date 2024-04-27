@@ -1,0 +1,130 @@
+/* header {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.img_logo {
+  height: 60px;
+  width: 100px;
+}
+
+.item {
+  cursor: pointer;
+}
+.navgations {
+  display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navgations :hover {
+  background-color: #638889;
+}
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.25em;
+}
+
+
+
+
+ */
+
+ .faculty_navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #9dbc98;
+  display: flex;
+}
+
+.faculty_navbar li {
+  float: left;
+}
+
+.faculty_navbar li a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.faculty_navbar li a:hover {
+  background-color: #638889;
+  color: black;
+}
+
+/* Style the form container */
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #9dbc98;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style form elements */
+.form-container input[type="text"],
+.form-container input[type="number"],
+.form-container input[type="select"],
+.form-container input[type="option"],
+.form-container input[type="password"],
+.form-container input[type="email"],
+.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Style submit button */
+.form-container input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Change submit button color on hover */
+.form-container input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Style form labels */
+.form-container label {
+  margin-bottom: 6px;
+  display: block;
+}
+
+/* Style form title */
+.form-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.logoutButton {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  }
+  

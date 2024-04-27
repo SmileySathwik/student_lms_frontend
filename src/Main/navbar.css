@@ -1,0 +1,66 @@
+header {
+  padding: 0px 20px;
+  background-color: #9dbc98;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.img_logo {
+  height: 60px;
+  width: 100px;
+}
+
+
+
+.companyName {
+  font-size: 48px;
+}
+.item {
+  padding: 5%;
+  cursor: pointer;
+}
+.navgations {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0px 35px;
+  font-size: 1.25em;
+}
+.navgations :hover {
+  background-color: #638889;
+}
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0px 45px;
+  font-size: 1.25em;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding: 5px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding:0px;
+  margin-top: 10px;
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content p,Link,a{
+  padding: 12px 4px;
+  text-decoration: none;
+}
+.dropdown-content p:hover,Link:hover{
+  background-color: aqua;
+}

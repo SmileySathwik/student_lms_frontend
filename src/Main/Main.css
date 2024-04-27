@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+.heading{
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #F9EFDB; /* Light gray background */
+}
+
+.homepage {
+  text-align: center;
+  padding: 20px;
+}
+
+.main-heading {
+  color: #333; /* Dark gray text color */
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.description {
+  color: #666; /* Medium gray text color */
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.moving-image-container {
+  position: relative;
+  height: 00px; /* Adjust container height as needed */
+  overflow: hidden;
+}
+
+.moving-image {
+  position: 100,0;
+  top: 10;
+  animation: moveUpDown 3s infinite alternate; /* Adjust animation duration and timing */
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0); /* Start position */
+  }
+  100% {
+    transform: translateY(50%); /* End position */
+  }
+}
+
+/* Reset default form styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the form container */
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style form elements */
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Style submit button */
+.form-container input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Change submit button color on hover */
+.form-container input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Style form labels */
+.form-container label {
+  margin-bottom: 6px;
+  display: block;
+}
+
+/* Style form title */
+.form-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+
