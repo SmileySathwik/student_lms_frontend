@@ -1,6 +1,6 @@
 const config = 
 {
-    url:'http://localhost:8000'
+    url:'https://student-lms-backend.onrender.com'
 }
  
 export default config;
